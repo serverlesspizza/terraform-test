@@ -1,0 +1,18 @@
+{
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": [
+          "arn:aws:iam::256690564364:root",
+          "arn:aws:iam::451302405673:root"
+        ]
+      },
+      "Action": "s3:*",
+      "Resource": [
+        "arn:aws:s3:::serverlesspizza-tf-state",
+        "arn:aws:s3:::serverlesspizza-tf-state/*"
+      ]
+    }
+  ]
+}

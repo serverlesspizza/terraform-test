@@ -1,0 +1,5 @@
+aws_region               = "eu-west-1"
+terraformStateBucketName = "serverlesspizza-tf-state"
+artifactBucketName       = "serverlesspizza-tf-build-artifacts"
+devAwsAccountId          = "256690564364"
+prodAwsAccountId         = "451302405673"
